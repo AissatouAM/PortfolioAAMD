@@ -1,0 +1,41 @@
+#about{
+  display: flex;
+  align-items: center;
+}
+
+.allabout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100vh;
+  font-size: 18px;
+}
+
+.aboutme {
+  width: 300px;
+  padding: 20px;
+  background-color: #5C3E94;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: whitesmoke;
+  padding-left: 50px;
+  background: linear-gradient(45deg, #1b0a3a, #5C3E94);
+}
+
+.paragraph {
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+}
+
+.maphoto {
+  width: 350px;
+  height: 550px;
+  border-radius: 30%;
+  margin-left: 300px;
+  object-fit: cover;
+  box-shadow:
+    0 0 20px #5C3E94,
+    0 0 40px #7b2cff;
+}

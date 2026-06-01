@@ -3,11 +3,7 @@
   align-items: center;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#links {
   position: fixed;
-  right: 30px;
 }
 
 .logo{
@@ -16,6 +12,11 @@
   font-size: 50px;
   color: #5C3E94;
   margin-left: 20px;
+}
+
+#links{
+  position: fixed;
+  right: 50px;
 }
 
 .link {

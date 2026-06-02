@@ -17,9 +17,8 @@ function About() {
         </div>
       </div>
       
-      <div className="photo-container">
         <img className="maphoto" src={me} alt="maphoto" />
-      </div>
+    
     </div>
   )
 }

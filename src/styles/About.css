@@ -25,18 +25,14 @@
 
 .paragraph {
   color: whitesmoke;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 50px;
 }
 
 .maphoto {
   width: auto;
   height: 550px;
-  border-radius: 30%;
   position: absolute;
   right: 50px;
   object-fit: cover;
-  box-shadow:
-    0 0 20px #5C3E94,
-    0 0 40px #7b2cff;
+  border-radius: 500px;
 }

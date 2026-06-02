@@ -1,0 +1,39 @@
+#skills {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.myskills {
+  color: #5C3E94;
+}
+
+.skill {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  color: whitesmoke;
+}
+
+.progress-bar {
+  width: 600px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #2B174A;
+  border-radius: 20px;
+  transition: width 1s ease;
+}

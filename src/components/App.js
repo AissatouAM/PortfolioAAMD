@@ -1,6 +1,9 @@
 import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About"
+import Projects from "./Projects";
+import Skills from "./Skills";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -9,6 +12,10 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Projects />
+      <Skills />
+      <Contact />
+
     </div>
   );
 }

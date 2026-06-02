@@ -12,7 +12,7 @@ function Navbar() {
         <a href="#home" className='link'>Home</a>
         <a href="#about" className='link'>About</a>
         <a href="#projects" className='link'>Projects</a>
-        <a href="#blog" className='link'>Blog</a>
+        <a href="#skills" className='link'>Skills</a>
         <a href="#contact" className='link'>Contact</a>
 
       </div>

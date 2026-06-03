@@ -7,6 +7,7 @@ import About from "./About"
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
+      <Footer />
 
     </div>
   );

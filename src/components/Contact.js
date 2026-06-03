@@ -7,13 +7,15 @@ function Contact(){
     {
       id: 1,
       icon: mail,
-      coordonnee: "aissatouanne.diop@gmail.com"
+      coordonnee: "aissatouanne.diop@gmail.com",
+      href: "mailto:aissatouanne.diop@gmail.com"
     },
 
     {
       id: 2,
       icon: linkedin,
-      coordonnee: "https://www.linkedin.com/in/aissatou-anne-marie-diop-b0b403400"
+      coordonnee: "https://www.linkedin.com/in/aissatou-anne-marie-diop-b0b403400",
+      href: "https://www.linkedin.com/in/aissatou-anne-marie-diop-b0b403400"
     }
   ]
 
@@ -26,7 +28,7 @@ function Contact(){
         {contacts.map((contact) => (
           <div className="contact" key={contact.id} data-aos="fade-up">
             <img className="icon" src={contact.icon} alt="icon" />
-            <p className="coordonnee">{contact.coordonnee}</p>
+            <a className="coordonnee" href={contact.href} target="_blank" rel="noopener noreferrer">{contact.coordonnee}</a>
           </div>
         ))}
 

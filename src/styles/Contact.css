@@ -39,4 +39,10 @@
 .coordonnee {
   color: whitesmoke;
   line-height: 30px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.coordonnee:hover {
+  color: #5C3E94;
 }

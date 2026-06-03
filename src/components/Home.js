@@ -6,7 +6,7 @@ function Home(){
 
       <button className="available">Available for new projects</button>
 
-      <h1 data-aos="zoom-in" >Hey !, I am <span className='name'>Aissatou</span></h1>
+      <h1 data-aos="zoom-in" >Hey, I am <span className='name'>Aissatou</span></h1>
 
       <h2>Full-Stack Developper</h2>
 
@@ -16,8 +16,8 @@ function Home(){
       </div>
 
       <div className='bottombuttons'>
-        <button className='bottombutton1'>View my work</button>
-        <button className='bottombutton2'>Get in Touch</button>
+        <a href="#projects" className='bottombutton1'>View my work</a>
+        <a href="#contact" className='bottombutton2'>Get in Touch</a>
       </div>
 
     </div>

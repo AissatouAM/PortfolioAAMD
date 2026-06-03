@@ -4,8 +4,10 @@ function Footer() {
   return (
     <footer id="footer">
       <div className="footer">
-        
+
         <div className="footernav">
+
+          <div className="footerlinks">
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
@@ -15,6 +17,8 @@ function Footer() {
 
         <div className="footeravailable">
           <p>Available for new projects</p>
+        </div>
+
         </div>
 
         <div className="copyright">

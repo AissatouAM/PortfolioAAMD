@@ -30,7 +30,7 @@ function Skills(){
   ];
 
   return (
-    <div id="skills" data-aos="fade-up">
+    <div id="skills" data-aos="fade-down">
       <h1 className="title">My Skills</h1>
 
       <div className="skillsintro" >

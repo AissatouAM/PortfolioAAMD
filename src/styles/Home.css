@@ -7,6 +7,12 @@
   justify-content: center;
   text-align: center;
   font-size: 30px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.783),
+      rgba(0, 0, 0, 0.68)
+    ), url("../assets/images/fond.png");
+  background-size: cover;
+  background-position: center;
 }
 
 #home button {

@@ -1,15 +1,17 @@
 #about{
   display: flex;
   align-items: center;
+  height: 100vh;
+  justify-content: space-between;
 }
 
 .allabout {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  height: 100vh;
   font-size: 18px;
+  padding-right: 30px;
 }
 
 .aboutme {
@@ -29,11 +31,14 @@
   font-size: 20px;
 }
 
+.photo {
+  padding-right: 50px;
+}
+
 .maphoto {
   width: auto;
   height: 550px;
-  position: absolute;
-  right: 50px;
   object-fit: cover;
   border-radius: 50px;
+  text-align: right;
 }

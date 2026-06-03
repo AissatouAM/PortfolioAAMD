@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About"
@@ -6,8 +9,13 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000});
+  }, []);
+
   return (
-    <div className="App">
+    <div className="App" >
       
       <Navbar />
       <Home />

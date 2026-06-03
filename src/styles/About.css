@@ -26,6 +26,7 @@
 .paragraph {
   color: whitesmoke;
   margin-left: 50px;
+  font-size: 20px;
 }
 
 .maphoto {
@@ -34,5 +35,5 @@
   position: absolute;
   right: 50px;
   object-fit: cover;
-  border-radius: 500px;
+  border-radius: 50px;
 }

@@ -20,11 +20,20 @@
   max-height: 450px;  /* Hauteur fixe */
   overflow: hidden;
   transition: max-height 0.3s ease;
+  background-color: rgba(91, 62, 148, 0.1);
+}
+
+.projectintro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1px;
+  font-size: 20px;
 }
 
 .projectinfos{
   display: flex;
-  justify-content: space-between;
+  text-align: center;
   align-items: flex-start; /*chaque projet prend sa propre hauteur, indépendamment des autres*/
   gap: 20px;
   padding-top: 4%;
@@ -46,6 +55,8 @@
   -webkit-box-orient: vertical;
   cursor: pointer;
   transition: max-height 0.3s ease;
+  margin-top: -25px;
+  margin-bottom: 30px;
 }
 
 .description.expanded {

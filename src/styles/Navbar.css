@@ -8,6 +8,7 @@
   padding: 1% 4%;
   width: 100%;
   background-color: black;
+  z-index: 999;
 }
 
 .logo{
@@ -23,6 +24,10 @@
   color: whitesmoke;
   text-decoration: none;
   font-size: 20px;
+}
+
+.link:hover {
+  color: #5C3E94;
 }
 
 .link:focus {

@@ -1,39 +1,84 @@
 #skills {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  color: whitesmoke;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  width: auto;
+  text-align: center;
+  height: 100vh;
 }
 
-.myskills {
+.title {
   color: #5C3E94;
+  margin-bottom: 50px;
+}
+
+.skillsintro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.skillinfos {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 2%;
+  flex-wrap: wrap;
+}
+
+.skill-category {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 2px solid #2B174A;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: rgba(91, 62, 148, 0.1);
+}
+
+.skilltype {
+  color: #5C3E94;
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .skill {
-  margin-bottom: 25px;
-  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: left;
 }
 
 .skill-info {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   color: whitesmoke;
+  font-size: 14px;
 }
 
 .progress-bar {
-  width: 600px;
-  height: 10px;
+  width: 100%;
+  height: 8px;
   background-color: #ddd;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .progress {
   height: 100%;
-  background-color: #2B174A;
+  background-color: #5C3E94;
   border-radius: 20px;
   transition: width 1s ease;
 }

@@ -1,5 +1,5 @@
 import "../styles/About.css"
-import me from "../assets/images/me.jpeg"
+//import me from "../assets/images/me.jpeg"
 
 function About() {
   return (
@@ -23,11 +23,11 @@ function About() {
         
       </div>
       
-      <div className="photo">
+     {/* <div className="photo">
 
         <img className="maphoto" src={me} alt="maphoto" data-aos="flip-right" data-aos-delay="400"/>
 
-      </div>
+      </div> */}
     
     </div>
   )

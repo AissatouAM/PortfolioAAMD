@@ -14,6 +14,8 @@
     ), url("../assets/images/fond.png");
   background-size: cover;
   background-position: center;
+  box-sizing: border-box;
+  max-width: 100vw;
 }
 
 #home button {
@@ -97,15 +99,18 @@ h2 {
   .bottombutton1, .bottombutton2{
     font-size: 20px;
   }
+
 }
 
 @media (max-width: 768px){
   #home {
-    font-size: 15px;
+    font-size: 13px;
+    height: unset;
+    padding-top: 50px;
   }
 
-  .bottombutton1, .bottombutton2{
-    font-size: 15px;
+  .available, .bottombutton1, .bottombutton2{
+    font-size: 12px;
   }
 }
 

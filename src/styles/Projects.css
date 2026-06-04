@@ -3,9 +3,10 @@
   flex-direction: column;
   color: whitesmoke;
   box-sizing: border-box;
+  max-width: 100vw;
   justify-content: center;
   align-items: center;
-  text-align: start;
+  text-align: center;
   height: 100vh;
 }
 
@@ -34,7 +35,7 @@
 .projectinfos{
   display: flex;
   text-align: center;
-  align-items: flex-start; /*chaque projet prend sa propre hauteur, indépendamment des autres*/
+  align-items: center; /*chaque projet prend sa propre hauteur, indépendamment des autres*/
   gap: 20px;
   padding-top: 4%;
   padding-left: 1%;
@@ -95,4 +96,68 @@
 
 .viewproject:active{
   opacity: 1;
+}
+
+@media (max-width: 1024px){
+  .projectinfos {
+    flex-wrap: wrap;
+    font-size: 15px;
+    justify-content: center;
+  }
+
+  .description {
+    max-height: 50px;  
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    font-size: 15px;
+  }
+
+  .projectintro {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .viewproject{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px){
+
+  #footer {
+    height: unset;
+    padding-top: 50px;
+  }
+
+  .projectinfos {
+    flex-wrap: wrap;
+    font-size: 13px;
+    justify-content: center;
+  }
+
+  .description {
+    max-height: 50px;  
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    font-size: 12px;
+  }
+
+  .projectintro {
+    line-height: 13px;
+    font-size: 12px;
+  }
+
+  .viewproject{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 315px){
+  .projectintro {
+    font-size: 8px;
+  }
 }

@@ -3,6 +3,7 @@ import '../styles/Navbar.css'
 
 function Navbar() {
   const [isHome, setIsHome] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,19 +18,27 @@ function Navbar() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const closeMenu = () => setMenuOpen(false);
   
   return (
     <div id="navbar" className={isHome ? 'transparent' : ''}>
 
       <h1 className="logo">Satou's world</h1>
 
-      <div id="links">
+      <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-        <a href="#home" className='link'>Home</a>
-        <a href="#about" className='link'>About</a>
-        <a href="#projects" className='link'>Projects</a>
-        <a href="#skills" className='link'>Skills</a>
-        <a href="#contact" className='link'>Contact</a>
+      <div id="links" className={menuOpen ? 'active' : ''}>
+
+        <a href="#home" className='link' onClick={closeMenu}>Home</a>
+        <a href="#about" className='link' onClick={closeMenu}>About</a>
+        <a href="#projects" className='link' onClick={closeMenu}>Projects</a>
+        <a href="#skills" className='link' onClick={closeMenu}>Skills</a>
+        <a href="#contact" className='link' onClick={closeMenu}>Contact</a>
 
       </div>
     </div>

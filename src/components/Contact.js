@@ -26,7 +26,7 @@ function Contact(){
       <div className="contacts" data-aos="fade-right" data-aos-delay="300">
 
         {contacts.map((contact) => (
-          <div className="contact" key={contact.id} data-aos="fade-up">
+          <div className="contact" key={contact.id} data-aos="fade-left">
             <img className="icon" src={contact.icon} alt="icon" />
             <a className="coordonnee" href={contact.href} target="_blank" rel="noopener noreferrer">{contact.coordonnee}</a>
           </div>

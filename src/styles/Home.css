@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: auto;
   color: whitesmoke;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.783),
       rgba(0, 0, 0, 0.68)
@@ -86,4 +87,34 @@ h2 {
 
 .bottombutton2:hover {
   border-color: #1b0a3a;
+}
+
+@media (max-width: 1024px) {
+  #home {
+    font-size: 20px;
+  }
+
+  .bottombutton1, .bottombutton2{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px){
+  #home {
+    font-size: 15px;
+  }
+
+  .bottombutton1, .bottombutton2{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 315px){
+  #home {
+    font-size: 10px;
+  }
+
+  .bottombutton1, .bottombutton2{
+    font-size: 10px;
+  }
 }

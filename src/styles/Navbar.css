@@ -16,19 +16,27 @@
   background-color: transparent;
 }
 
-.logo{
+.logo {
   font-family: "Dancing Script";
   font-weight: bold;
   font-size: 50px;
   color: #5C3E94;
   margin: 0;
+  flex-shrink: 0;
+}
+
+#links {
+  display: flex;
+  gap: 30px;
 }
 
 .link {
-  margin-left: 30px;
+  margin-left: 0;
   color: whitesmoke;
   text-decoration: none;
   font-size: 20px;
+  transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .link:hover {
@@ -37,4 +45,103 @@
 
 .link:focus {
   color: #5C3E94;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  gap: 6px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: whitesmoke;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+#navbar.transparent .hamburger span {
+  background-color: whitesmoke;
+}
+
+/* Tablette (768px - 1024px) */
+@media (max-width: 1024px) {
+  .logo {
+    font-size: 40px;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+
+  #links {
+    gap: 20px;
+  }
+}
+
+/* Petit écran / Mobile (moins de 768px) */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 32px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  #links {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    transition: left 0.3s ease;
+    gap: 0;
+    padding: 20px 0;
+    border-top: 1px solid #5C3E94;
+  }
+
+  #navbar.transparent #links {
+    background-color: rgba(0, 0, 0, 0.95);
+  }
+
+  #links.active {
+    left: 0;
+  }
+
+  .link {
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    border-bottom: 1px solid #2B174A;
+  }
+
+  .link:last-child {
+    border-bottom: none;
+  }
+}
+
+/* Très petit écran (moins de 480px) */
+@media (max-width: 480px) {
+  #navbar {
+    padding: 1.5% 3%;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  #links {
+    top: 60px;
+  }
+
+  .link {
+    font-size: 16px;
+  }
 }

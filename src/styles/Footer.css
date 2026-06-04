@@ -4,7 +4,7 @@
   padding: 30px 20px;
   text-align: center;
   border-top: 1px solid #5C3E94;
-  height: 80px;
+  height: 90px;
 }
 
 .footer {
@@ -28,7 +28,7 @@
 .footerlinks a {
   color: whitesmoke;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   transition: color 0.3s ease;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .footeravailable {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   color: #5C3E94;
 }
@@ -47,10 +47,10 @@
 }
 
 .copyright {
-  font-size: 14px;
+  font-size: 11px;
   color: #999;
   border-top: 1px solid #2B174A;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .footer-copyright p {

@@ -33,7 +33,7 @@ function Projects(){
   ]
   return(
     <div id="projects" >
-      <h1 className="title" data-aos="fade-left">My Projects</h1>
+      <h1 className="title" data-aos="fade-up">My Projects</h1>
     
       <div className="projectintro" >
         <p data-aos="fade-up">Here are some of the projects I have worked on during my learning journey in web development.</p>
@@ -54,7 +54,7 @@ function Projects(){
                   {project.description}
               </p>
               <div className="buttons">
-                <button className="viewproject">Voir sur GitHub</button>
+                <button className="viewproject">View on GitHub</button>
               </div>
             </div>
           );

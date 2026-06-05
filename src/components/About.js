@@ -6,7 +6,7 @@ function About() {
     <div id="about" >
       <div className="allabout">
 
-        <h1 className="aboutme" data-aos="fade-up">About me</h1>
+        <h1 className="aboutme" data-aos="fade-right" data-aos-delay="300">About me</h1>
 
         <div className="paragraph" data-aos="fade-up" data-aos-delay="300">
           <p data-aos="fade-up">Second-year student in the Computer Science DUT program at the Polytechnic School of Dakar.</p>

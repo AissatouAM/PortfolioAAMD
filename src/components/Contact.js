@@ -23,10 +23,10 @@ function Contact(){
     <div id="contact" data-aos="zoom-in" >
       <h1 className="h1">Let's work <span className="together" data-aos="zoom-in" data-aos-delay="300">together !</span></h1>
 
-      <div className="contacts" data-aos="fade-right" data-aos-delay="300">
+      <div className="contacts" data-aos="fade-up" data-aos-delay="300">
 
         {contacts.map((contact) => (
-          <div className="contact" key={contact.id} data-aos="fade-left">
+          <div className="contact" key={contact.id} data-aos="fade-down">
             <img className="icon" src={contact.icon} alt="icon" />
             <a className="coordonnee" href={contact.href} target="_blank" rel="noopener noreferrer">{contact.coordonnee}</a>
           </div>

@@ -31,7 +31,7 @@ function Skills(){
 
   return (
     <div id="skills" data-aos="fade-up">
-      <h1 className="title">My Skills</h1>
+      <h1 className="title" data-aos="zoom-in" data-aos-delay="300">My Skills</h1>
 
       <div className="skillsintro" >
         <p data-aos="fade-up">These are the technologies and tools I use to bring ideas to life through code.</p>

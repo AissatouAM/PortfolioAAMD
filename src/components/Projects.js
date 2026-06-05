@@ -33,7 +33,7 @@ function Projects(){
   ]
   return(
     <div id="projects" >
-      <h1 className="title" data-aos="fade-up">My Projects</h1>
+      <h1 className="title" data-aos="zoom-out">My Projects</h1>
     
       <div className="projectintro" >
         <p data-aos="fade-up">Here are some of the projects I have worked on during my learning journey in web development.</p>

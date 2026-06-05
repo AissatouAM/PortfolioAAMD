@@ -12,6 +12,7 @@
   background-size: contain;
   background-position: right center;
   background-repeat: no-repeat;
+  /*background-color: #1b0a3a;*/
 }
 
 .allabout {
@@ -37,6 +38,7 @@
   color: whitesmoke;
   margin-left: 50px;
   font-size: 15px;
+  max-width: 770px;
 }
 
 /*
@@ -66,7 +68,7 @@
 
   #about {
     background-position: center;
-    height: unset;
+    height: auto;
     padding-top: 50px;
   }
 }

@@ -16,6 +16,7 @@
   background-position: center;
   box-sizing: border-box;
   max-width: 100vw;
+  /*background-color: green;*/
 }
 
 #home button {
@@ -105,7 +106,6 @@ h2 {
 @media (max-width: 768px){
   #home {
     font-size: 13px;
-    height: unset;
     padding-top: 50px;
   }
 

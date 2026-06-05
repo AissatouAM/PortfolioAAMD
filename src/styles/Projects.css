@@ -8,6 +8,7 @@
   align-items: center;
   text-align: center;
   height: 100vh;
+  /*background-color: yellow;*/
 }
 
 .project{
@@ -127,7 +128,7 @@
 @media (max-width: 768px){
 
   #footer {
-    height: unset;
+    height: auto;
     padding-top: 50px;
   }
 

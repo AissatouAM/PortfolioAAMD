@@ -7,6 +7,7 @@
   font-size: 15px;
   box-sizing: border-box;
   max-width: 100vw;
+  /*background-color: red;*/
 }
 
 .h1 {
@@ -21,7 +22,9 @@
 .contacts{
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .contact {
@@ -53,7 +56,7 @@
 @media (max-width: 768px){
   #contact {
     font-size: 12px;
-    height: unset;
+    height: auto;
     padding-top: 50px;
   }
 
